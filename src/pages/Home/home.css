@@ -1,0 +1,37 @@
+.home {
+    width: 100vw;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.home-title {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: #007bff;
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+
+.home-cards-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    justify-content: center;    /* Centra el grid dentro del contenedor */
+    justify-items: center;      /* Centra las cards dentro de cada celda */           /* Centra el grid si es más chico que el contenedor */
+    box-sizing: border-box;
+}
+
+@media (max-width: 1000px) {
+    .home-cards-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .home-cards-grid {
+        grid-template-columns: 1fr;
+    }
+}

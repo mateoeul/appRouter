@@ -1,0 +1,55 @@
+.persona-detalle {
+    width: 100vw;
+    min-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    /* Centra horizontalmente */
+    margin: 0;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0;
+    margin-top: 3rem;       /* Ajusta este valor según lo alto que quieras */
+}
+
+.persona-detalle h1 {
+    color: #007bff;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.persona-detalle-card {
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.09);
+    padding: 2.5rem 2rem 2rem 2rem;
+    min-width: 320px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.1rem;
+    text-align: center;    /* Centra el texto dentro de la card */
+}
+
+.persona-detalle-card h2 {
+    color: #222;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+
+.persona-detalle-card p {
+    font-size: 1.1rem;
+    color: #444;
+    margin: 0;
+    text-align: center;
+}
+
+.persona-detalle-card p:last-child {
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 0.5rem;
+    text-align: center; 
+}
