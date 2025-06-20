@@ -1,0 +1,39 @@
+.stats-container {
+    max-width: 500px;
+    margin: 3rem auto 0 auto;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.09);
+    padding: 2.5rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.stats-container h1 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.stats-container p {
+    font-size: 1.15rem;
+    color: #333;
+    margin: 0.5rem 0;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .stats-container {
+        padding: 1.2rem 0.5rem;
+    }
+    .stats-container h1 {
+        font-size: 1.3rem;
+    }
+    .stats-container p {
+        font-size: 1rem;
+    }
+}
