@@ -1,0 +1,65 @@
+.form-contacto {
+    max-width: 400px;
+    margin: 3rem auto 0 auto;
+    background: #fff;
+    border-radius: 14px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.09);
+    padding: 2.5rem 2rem 2rem 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    align-items: center;
+}
+
+.form-contacto h1 {
+    color: #007bff;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+.form-contacto input {
+    width: 100%;
+    padding: 0.7rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border 0.2s;
+}
+
+.form-contacto input:focus {
+    border: 1.5px solid #007bff;
+    outline: none;
+}
+
+.form-contacto button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    padding: 0.7em 1.5em;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: background 0.18s;
+    margin-top: 0.5rem;
+}
+
+.form-contacto button:hover {
+    background: #0056b3;
+}
+
+.form-contacto span {
+    color: #d32f2f;
+    font-size: 0.98rem;
+    align-self: flex-start;
+    margin-left: 2px;
+}
+
+.form-contacto .exito {
+    color: #388e3c;
+    font-size: 1.05rem;
+    margin-top: 0.5rem;
+    text-align: center;
+    width: 100%;
+}

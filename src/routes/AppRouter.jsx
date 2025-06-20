@@ -4,6 +4,7 @@ import MainLayout from "../layout/MainLayout";
 import Home from "../pages/Home/Home";
 import PersonaDetalle from "../pages/PersonaDetalle/PersonaDetalle";
 import Stats from "../pages/Stats/Stats";
+import Contacto from "../pages/Contacto/Contacto";
 
 const AppRouter = () => {
 
@@ -13,8 +14,9 @@ const AppRouter = () => {
                 <Route path="/" element={<MainLayout />}>
                     <Route path="/" element={<Home />}/>
                     <Route path="/estadistica" element={<Stats />}/>
-                    <Route path="/contacto" element={<h1>CONTACTO</h1>}/>
+                    <Route path="/contacto" element={<Contacto />}/>
                     <Route path="/persona/:id" element={<PersonaDetalle />}/>
+                    <Route path="*" element={<h1>404 - Página no encontrada</h1>} />
                 </Route>
             </Routes>
         </Router>
